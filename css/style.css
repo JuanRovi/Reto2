@@ -1,0 +1,27 @@
+body{
+	background-color: lightblue;
+}
+
+.hat{
+	justify-content: center;
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+
+.container{
+	justify-content: center;
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+
+
+button{
+	background-color: green;
+	color: white;
+}
+
+footer{
+	background-color: gray;
+}

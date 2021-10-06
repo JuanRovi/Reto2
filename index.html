@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="javascript/funciones.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<title>Reserva Hotel</title>
+</head>
+<body>
+	
+<header class="hat">
+	<h1 class="tittle">Hoteleria</h1>
+</header>
+
+
+<div class="container">
+	<h2 class="text-registro">Registro cliente</h2>
+
+	<form action="" class="table-regigstro">
+
+		<label for="id">ID</label>
+		<input type="number" id="id" placeholder="id">
+		<label for="name">NAME</label>
+		<input type="name" id="name" placeholder="name">
+		<label for="email">EMAIL</label>
+		<input type="text" id="email" placeholder="email">
+		<label for="Age">AGE</label>
+		<input type="number" id="age" placeholder="age">
+
+
+		<button onclick="GuardarClientles()">Registrar</button>
+		<button onclick="Consultar()">consultar</button>
+
+		<h2 class="text-mensaje">Regristro Mensajes</h2>
+
+		<form action="" class="table-mensajes">
+
+		<label for="id">ID</label>
+		<input type="number" id="id" placeholder="id">
+		<label for="text">MESSAGETEXT</label>
+		<input type="text" id="messagge" placeholder="messagetext">
+
+		<button onclick="GuardarMensajes()">Registrar</button>
+		<button onclick="ConsultarMensajes()">consultar</button>
+
+		</form>
+
+		<h2 class="text-habitacion">Registro Habitacion</h2>
+
+		<form action="" class="tabla-habitacion">
+			
+			<label for="id">ID</label>
+			<input type="number" id="id" placeholder="id">
+			<label for="room">ROOM</label>
+			<input type="text" id="room" placeholder="room">
+			<label for="star">STARS</label>
+			<input type="number" id="stars" placeholder="stars">
+			<label for="category">CATEGORY_ID</label>
+			<input type="number" id="category" placeholder="category_id">
+			<label for="description">DESCRIPTION</label>
+			<input type="text" id="description" placeholder="description">
+
+			<button onclick="GuardarRoom()">Registrar</button>
+		    <!--<button onclick="Consultar()">consultar</button>-->
+
+
+
+		</form>
+
+	</form>
+</div>
+<footer>
+	
+</footer>
+</body>
+</html>
