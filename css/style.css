@@ -1,5 +1,5 @@
 body{
-	background-color: lightblue;
+	background-color: green;
 }
 
 .hat{
@@ -10,7 +10,8 @@ body{
 }
 
 .container{
-	justify-content: center;
+	margin-bottom: 40px;
+	border: 1px solid black;
 	background-color: gray;
 	color: white;
 	text-align: center;
@@ -18,10 +19,43 @@ body{
 
 
 button{
-	background-color: green;
+	background-color:red;
 	color: white;
+}
+
+
+button:hover{
+	background-color: lightblue;
+	cursor: pointer;
+
 }
 
 footer{
 	background-color: gray;
+}
+
+table,th,td {
+background-color: lightblue;
+border: 1px solid black;
+border-collapse: collapse;
+margin-bottom: 7px;
+
+}
+
+.container-room{
+	margin-bottom: 40px;
+	border: 1px solid black;
+	background-color: gray;
+	color: white;
+	text-align: center;
+
+}
+
+.container-message{
+	margin-bottom: 40px;
+	border: 1px solid black;
+	background-color: gray;
+	color: white;
+	text-align: center;
+
 }
